@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mooh.myrelaapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#eabbef0f"
+        android:text="tvOne" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ea7ff11a"
+        android:text="tv2" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:background="#eada75d2"
+        android:text="tv3" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="#ea0eebbf"
+        android:text="tv5" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="#eaed102a"
+        android:text="tv6" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="#ea12afdf"
+        android:text="tv4" />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#ea3b16df"
+        android:text="tv7" />
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#eae40dd3"
+        android:text="tv8" />
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#eaef4b0a"
+        android:text="tv9" />
+
+
+</RelativeLayout>
